@@ -9,7 +9,7 @@ RUN apt-get update && \
 		g++-multilib \
 		xutils-dev \
 		patch \
-		git-all \
+		git \
 		libpulse-dev \
 	&& apt-get clean \
 	&& rm -rf /var/lib/apt/lists/*
